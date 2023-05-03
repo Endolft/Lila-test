@@ -1,0 +1,38 @@
+.main {
+  padding: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  height: 100vh;
+  color: var(--font-color);
+  margin: 0 auto;
+}
+
+.logo {
+  height: auto;
+  width: 100%;
+  max-width: 90vw;
+  margin: 2rem 0 4rem 0;
+  object-fit: contain;
+}
+
+.error,
+.success {
+  margin: 0rem auto;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: var(--main-color);
+}
+
+.button {
+  margin-top: 2rem;
+}

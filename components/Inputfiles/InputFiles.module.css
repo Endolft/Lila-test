@@ -1,0 +1,58 @@
+.custom {
+  width: 160px;
+  height: 33px;
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #b700ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10px;
+}
+
+.custom .inputfile {
+  height: 35px;
+  width: 160px;
+  margin: 26px 61px 0px 62px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 1px;
+  margin: 0;
+  opacity: 0;
+  outline: 0 none;
+  padding: 0;
+  position: absolute;
+  bottom: 3%;
+  z-index: 9999;
+}
+.inputFileStyles {
+  width: 160px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  bottom: 3%;
+
+  color: #b700ff;
+}
+.inputFileStyles p {
+  position: absolute;
+  width: 160px;
+  padding: 15px;
+}
+
+.inputFileStyles svg {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+}

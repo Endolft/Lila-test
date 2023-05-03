@@ -1,0 +1,80 @@
+.svgContainer {
+	position: relative;
+	width: 100%;
+	height: 108px;
+	top: 0;
+	background-color: #bababa;
+}
+
+.svg1 {
+	position: absolute;
+	z-index: 4;
+	width: 100%;
+}
+
+.svg2 {
+	position: absolute;
+	top: 21%;
+	left: -50%;
+	transform: translateY(-20%) scale(0.5);
+
+	z-index: 2;
+}
+.svg3 {
+	position: absolute;
+	top: 22;
+	right: -50%;
+	transform: translateY(-20%) scale(0.7);
+
+	z-index: 2;
+}
+
+.svg1Mobile {
+	display: none;
+}
+.svg2Mobile {
+	display: none;
+}
+.svg3Mobile {
+	display: none;
+}
+
+@media screen and (max-width: 360px) {
+	.svgContainer {
+		position: relative;
+		width: 100%;
+		height: 108px;
+		top: 0;
+		background-color: #bababa;
+	}
+	.svg1 {
+		display: none;
+	}
+	.svg2 {
+		display: none;
+	}
+	.svg3 {
+		display: none;
+	}
+	.svg1Mobile {
+		display: flex;
+		position: absolute;
+		z-index: 4;
+		width: 100%;
+		top: -10%;
+	}
+	.svg2Mobile {
+		display: inherit;
+		position: absolute;
+		z-index: 3;
+		margin-top: 44px;
+		left: 0;
+	}
+	.svg3Mobile {
+		display: flex;
+		position: absolute;
+		z-index: 3;
+		margin-top: 86px;
+		right: 0;
+	}
+}

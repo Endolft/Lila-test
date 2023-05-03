@@ -1,0 +1,102 @@
+.dropzoneContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.dropzone {
+	box-sizing: border-box;
+	width: 90%;
+	height: 144px;
+	border: 1px dashed #bcbcbc;
+	border-radius: 5px;
+	margin: 32px 16px 0px 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.dropzoneIn {
+	padding: 10px;
+	height: 300px;
+	width: 90%;
+	border: 1px dashed #b700ff;
+	border-radius: 5px;
+	margin: 32px 16px 0px 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	/* flex-wrap: wrap; */
+}
+.dropzoneInEmpty {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.textSubtitle {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #bcbcbc;
+}
+
+.text {
+	width: 100% 250px;
+	height: 30px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+
+	/* identical to box height */
+
+	color: #b700ff;
+}
+.imagesScroll {
+	display: grid;
+	overflow-y: scroll;
+	grid-template-columns: repeat(2, 114px);
+	justify-content: space-between;
+	align-items: stretch;
+	padding: 10px;
+}
+.imagesize {
+	width: 114px;
+	height: 101px;
+}
+.containerImage {
+	position: relative;
+}
+
+.buttoDelete {
+	position: absolute;
+	right: 0;
+	background: #ffffff;
+	border-radius: 50%;
+	width: 28px;
+	height: 28px;
+	padding: 7px;
+	box-shadow: 0px 6px 6px rgb(0 0 0 / 78%);
+	cursor: pointer;
+}
+
+.inputContainerwhitImages {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@media screen and (min-width: 600px) and (max-width: 1366px) {
+	.dropzoneIn {
+		height: 270px;
+	}
+	.dropzoneInEmpty {
+		height: 270px;
+	}
+}
